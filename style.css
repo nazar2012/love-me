@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   display: grid;
   justify-content: center;
@@ -12,6 +13,7 @@ body {
   background-color: #ffe6e9;
   font-family: "Quicksand", sans-serif;
 }
+
 .container {
   position: absolute;
   top: 50%;
@@ -30,21 +32,26 @@ body {
   left: 50%;
   transition: 0.2s;
 }
+
 .tenor-gif-embed {
   height: 15rem;
   pointer-events: none;
   border-radius: 10px;
   margin-bottom: 3rem;
 }
+
 .question {
   font-size: 3.5rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
 }
+
 .btn {
   position: absolute;
   border: none;
@@ -59,9 +66,10 @@ body {
   transform: scale(1.05);
   box-shadow: 0px 4px 15px rgba(255, 107, 129, 0.5);
 }
+
 .btn:hover {
   background-color: #ffa4b1;
-  transform: scale(1.1);
+  transform: scale(1.2);
   box-shadow: 0px 6px 20px rgba(255, 107, 129, 0.7);
   text-shadow: 1px 1px 5px rgba(255, 182, 193, 0.8);
 }
@@ -69,6 +77,7 @@ body {
 .yes-btn {
   right: 54%;
 }
+
 .no-btn {
   left: 54%;
 }
@@ -85,10 +94,12 @@ body {
   -moz-transform: translate(-100%, -50%);
   transition: 0.2s;
 }
+
 .gif-result {
   border-radius: 10px;
   margin-bottom: 2rem;
 }
+
 .result-container h2 {
   font-size: 3.2rem;
   text-align: center;
@@ -115,14 +126,10 @@ body {
 
 .cssload-heart {
   animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
-  -o-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -ms-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -webkit-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -moz-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
+  -o-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-heart 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
   top: 50%;
   content: "";
   left: 50%;
@@ -139,14 +146,10 @@ body {
   display: block;
   border-radius: 100%;
   animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
-  -o-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -ms-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -webkit-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -moz-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
+  -o-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-heartL 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
   transform: translate(-28px, -27px);
   -o-transform: translate(-28px, -27px);
   -ms-transform: translate(-28px, -27px);
@@ -169,14 +172,10 @@ body {
   -webkit-transform: translate(28px, -27px);
   -moz-transform: translate(28px, -27px);
   animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
-  -o-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -ms-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -webkit-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -moz-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
+  -o-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-heartR 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
 }
 
 .cssload-square {
@@ -193,14 +192,10 @@ body {
   -webkit-transform: scale(1) rotate(-45deg);
   -moz-transform: scale(1) rotate(-45deg);
   animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
-  -o-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -ms-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -webkit-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -moz-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
+  -o-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-square 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
 }
 
 .cssload-shadow {
@@ -216,14 +211,10 @@ body {
   border: 1px solid rgb(215, 215, 215);
   border-radius: 50%;
   animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
-  -o-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -ms-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -webkit-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
-  -moz-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite
-    normal;
+  -o-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -ms-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -webkit-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
+  -moz-animation: cssload-shadow 2.88s cubic-bezier(0.75, 0, 0.5, 1) infinite normal;
 }
 
 @keyframes cssload-square {
@@ -231,6 +222,7 @@ body {
     border-radius: 100%;
     transform: scale(0.5) rotate(-45deg);
   }
+
   100% {
     transform: scale(1) rotate(-45deg);
   }
@@ -241,6 +233,7 @@ body {
     border-radius: 100%;
     -o-transform: scale(0.5) rotate(-45deg);
   }
+
   100% {
     -o-transform: scale(1) rotate(-45deg);
   }
@@ -251,6 +244,7 @@ body {
     border-radius: 100%;
     -ms-transform: scale(0.5) rotate(-45deg);
   }
+
   100% {
     -ms-transform: scale(1) rotate(-45deg);
   }
@@ -261,6 +255,7 @@ body {
     border-radius: 100%;
     -webkit-transform: scale(0.5) rotate(-45deg);
   }
+
   100% {
     -webkit-transform: scale(1) rotate(-45deg);
   }
@@ -271,6 +266,7 @@ body {
     border-radius: 100%;
     -moz-transform: scale(0.5) rotate(-45deg);
   }
+
   100% {
     -moz-transform: scale(1) rotate(-45deg);
   }
@@ -280,6 +276,7 @@ body {
   50% {
     transform: rotate(360deg);
   }
+
   100% {
     transform: rotate(720deg);
   }
@@ -289,6 +286,7 @@ body {
   50% {
     -o-transform: rotate(360deg);
   }
+
   100% {
     -o-transform: rotate(720deg);
   }
@@ -298,6 +296,7 @@ body {
   50% {
     -ms-transform: rotate(360deg);
   }
+
   100% {
     -ms-transform: rotate(720deg);
   }
@@ -307,6 +306,7 @@ body {
   50% {
     -webkit-transform: rotate(360deg);
   }
+
   100% {
     -webkit-transform: rotate(720deg);
   }
@@ -316,6 +316,7 @@ body {
   50% {
     -moz-transform: rotate(360deg);
   }
+
   100% {
     -moz-transform: rotate(720deg);
   }
